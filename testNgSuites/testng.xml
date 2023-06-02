@@ -1,0 +1,13 @@
+<suite name="Techcrunch Test Suite">
+
+    <listeners>
+        <listener class-name="utils.listeners.TestListener"/>
+    </listeners>
+
+
+    <test name="Techcrunch Tests">
+        <classes>
+            <class name="Framework.pageTests.HomeTest"></class>
+        </classes>
+    </test>
+</suite>
