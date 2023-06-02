@@ -13,8 +13,9 @@ public class HomeTest extends BaseTest {
 boolean siteControl = true;
     @BeforeMethod
     public void openHomePage(Method method){
+        startTest(method.getName(),"Main Tests");
         if(siteControl) {
-            startTest(method.getName(),"Main Tests");
+            
             homePageObject
                     .openWebsite(properties.getProperty("baseUrl"));
             siteControl = false;
