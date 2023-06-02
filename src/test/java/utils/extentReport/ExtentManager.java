@@ -16,7 +16,7 @@ public class ExtentManager {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        reporter.config().setReportName("Techcrunch Test Suite Report");
+        reporter.config().setReportName("Insider Test Suite Report");
         extentReports.attachReporter(reporter);
         return extentReports;
     }

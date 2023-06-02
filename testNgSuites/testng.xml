@@ -1,11 +1,12 @@
-<suite name="Techcrunch Test Suite">
+<suite name="Insider Test Suite">
 
     <listeners>
         <listener class-name="utils.listeners.TestListener"/>
     </listeners>
 
 
-    <test name="Techcrunch Tests">
+    <test name="Insider Tests">
+        <parameter name="browserName" value="chrome"></parameter>
         <classes>
             <class name="Framework.pageTests.HomeTest"></class>
         </classes>
